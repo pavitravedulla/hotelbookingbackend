@@ -1,5 +1,9 @@
 package com.klu.service;
 
-public class HotelService {
+import com.klu.model.Hotel;
+import java.util.List;
 
+public interface HotelService {
+    List<Hotel> getAllHotels();
+    Hotel addHotel(Hotel hotel);
 }
