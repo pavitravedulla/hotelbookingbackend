@@ -1,4 +1,3 @@
-
 package com.klu.controller;
 
 import com.klu.model.Hotel;
@@ -8,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/back3")
+@RequestMapping("/hotel")
 public class HotelController {
 
     private final HotelService hotelService;
